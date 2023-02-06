@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+main{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: hsl(217, 54%, 11%);
+
+}
+.equilibrium{
+    max-width: 270px;
+    border-radius: 10px;
+}
+
+.box{
+    max-width: 270px;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    background: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+}
+h1{
+    color: white;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+h1:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.explain{
+    margin-top: 1rem;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+.information{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.icon-ethereum{
+    margin-right: 0.25rem;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    color: hsl(178, 100%, 50%);
+    width: 100px;
+    align-self: center;
+}
+.icon-clock{
+    margin-left: 4.5rem;
+}
+.time{
+    margin-left: 0.25rem;
+    color: hsl(215, 51%, 70%);
+    align-self: center;
+}
+.autor{
+    border-top: 2px solid hsl(215, 32%, 27%);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+
+}
+.autor img{
+    width: 1.5rem;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+.autor p{
+    margin-left: 1rem;
+    align-self: center;
+}
+.autor a{
+    text-decoration: none;
+    color: white;
+}
+.autor a:hover{
+    color: hsl(178, 100%, 50%);
+
+}
